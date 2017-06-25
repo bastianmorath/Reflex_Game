@@ -14,13 +14,13 @@
 		B62D31D818A66EC700551FFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B62D31D718A66EC700551FFA /* main.m */; };
 		B62D31DC18A66EC800551FFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B62D31DB18A66EC800551FFA /* AppDelegate.m */; };
 		B62D31DF18A66EC800551FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62D31DD18A66EC800551FFA /* Main.storyboard */; };
-		B62D31E218A66EC800551FFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62D31E118A66EC800551FFA /* ViewController.m */; };
 		B62D31E418A66EC800551FFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62D31E318A66EC800551FFA /* Images.xcassets */; };
 		B62D31EB18A66EC800551FFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62D31EA18A66EC800551FFA /* XCTest.framework */; };
 		B62D31EC18A66EC800551FFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62D31CB18A66EC700551FFA /* Foundation.framework */; };
 		B62D31ED18A66EC800551FFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62D31CF18A66EC700551FFA /* UIKit.framework */; };
 		B62D31F518A66EC800551FFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B62D31F318A66EC800551FFA /* InfoPlist.strings */; };
 		B62D31F718A66EC800551FFA /* ReflexGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62D31F618A66EC800551FFA /* ReflexGameTests.m */; };
+		B680C1971C68D2DB0095EBB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62D31E118A66EC800551FFA /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -252,7 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B62D31E218A66EC800551FFA /* ViewController.m in Sources */,
+				B680C1971C68D2DB0095EBB7 /* ViewController.m in Sources */,
 				B62D31DC18A66EC800551FFA /* AppDelegate.m in Sources */,
 				B62D31D818A66EC700551FFA /* main.m in Sources */,
 			);
@@ -386,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReflexGame/ReflexGame-Prefix.pch";
 				INFOPLIST_FILE = "ReflexGame/ReflexGame-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ReflexGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -402,6 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReflexGame/ReflexGame-Prefix.pch";
 				INFOPLIST_FILE = "ReflexGame/ReflexGame-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ReflexGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;

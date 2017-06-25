@@ -16,9 +16,12 @@
     NSTimer *countdownTimer;
     int secondesLeft;
     int tagToDelete;
+
     UILabel *scoreLabel1;
     UILabel *scoreLabel2;
     UILabel *levelLabel;
+    UILabel *highscoreLabel;
+
     int level;
 }
 - (IBAction)buttonPressed:(id)sender;
